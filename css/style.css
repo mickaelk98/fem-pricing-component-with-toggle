@@ -139,7 +139,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url(../images/bg-bottom.svg) no-repeat top -50px left 180px, #f6f6fe;
+  background: url(../images/bg-top.svg) no-repeat top -50px left 180px, #f6f6fe;
 }
 
 h1 {
@@ -185,6 +185,43 @@ h1 {
 }
 .attribution a:visited {
   color: #3e52a3;
+}
+
+@media screen and (min-width: 1023px) {
+  body {
+    background: url(../images/bg-top.svg) no-repeat top right, url(../images/bg-bottom.svg) no-repeat bottom left, #f6f6fe;
+    height: 100vh;
+  }
+
+  .pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 1050px;
+  }
+
+  h1 {
+    margin: 30px 0;
+  }
+
+  .toggle-btn-container {
+    margin-bottom: 30px;
+  }
+
+  .card-wrapper {
+    max-width: 350px;
+  }
+  .card-wrapper:nth-child(2) {
+    height: 450px;
+  }
+  .card-wrapper:nth-child(2) .card__title {
+    margin-top: 45px;
+  }
+
+  .card {
+    max-width: 400px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
