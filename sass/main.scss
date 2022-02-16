@@ -6,7 +6,8 @@
 
 body {
   @include flex-center(column);
-  background: url(/images/bg-top.svg) no-repeat top -50px left 180px, $bg-color;
+  background: url(../images/bg-bottom.svg) no-repeat top -50px left 180px,
+    $bg-color;
 }
 
 h1 {

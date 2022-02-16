@@ -139,7 +139,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url(/images/bg-top.svg) no-repeat top -50px left 180px, #f6f6fe;
+  background: url(../images/bg-bottom.svg) no-repeat top -50px left 180px, #f6f6fe;
 }
 
 h1 {
