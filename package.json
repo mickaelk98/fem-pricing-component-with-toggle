@@ -4,8 +4,10 @@
   "description": "![Design preview for the Pricing component with toggle coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -o ./css/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": "last 4 versions"
 }

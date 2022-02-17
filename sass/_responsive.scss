@@ -4,6 +4,7 @@
     background: url(../images/bg-top.svg) no-repeat top right,
       url(../images/bg-bottom.svg) no-repeat bottom left, $bg-color;
     height: 100vh;
+    overflow: hidden;
   }
 
   .pricing {
